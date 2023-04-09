@@ -1,0 +1,13 @@
+.app {
+  background-color: rgb(200, 229, 236);
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem;
+}
+.logo-img {
+  width: 10rem;
+}

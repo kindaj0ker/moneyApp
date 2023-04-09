@@ -1,0 +1,90 @@
+.new-transaction--form {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 0.5rem;
+  align-self: center;
+  background-color: rgb(32, 54, 80, 95%);
+  padding: 1rem;
+  margin: 0;
+  border-radius: 2rem;
+  font-family: "Averia Sans Libre";
+  color: aliceblue;
+  padding: 1rem;
+  align-items: flex-start;
+}
+.form-field--wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem 0;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.1rem;
+}
+.amount-curr--wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.form-label {
+  margin: 0.3rem 0;
+}
+.form-select {
+  width: 28%;
+  height: 1.8rem;
+  font-family: inherit;
+  padding: 0.2rem;
+}
+.form-input {
+  margin: 0;
+  padding: 0;
+  margin-right: 0.4rem;
+  width: 10.7rem;
+  border: 0;
+  height: 1.8rem;
+  padding: 0 0.2rem;
+}
+.form-error--field {
+  background-color: aliceblue;
+  padding: 0.5rem;
+  color: red;
+  font: 1.2rem;
+  font-weight: 600;
+  border: red 0.4px solid;
+  border-radius: 1rem;
+}
+.transaction-amount--wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.form-btns {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-between;
+}
+.form-btn {
+  width: 7rem;
+  padding: 0.2rem 1.5rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  background-color: #ff00c7;
+  color: aliceblue;
+  font-size: 1.2rem;
+  font-family: inherit;
+}
+.form-input-date {
+  height: 1.8rem;
+  width: 27.5%;
+}
+.fill-form--msg {
+  font-size: 1.5rem;
+  width: 90%;
+  color: #ff00c7;
+  font-weight: 600;
+}
+.transaction-currency {
+  margin: 0;
+}
