@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Transaction.css";
+
+export const TransactionsContext = useContext(null);
 
 export const Transaction = function ({
   transaction,
